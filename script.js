@@ -68,6 +68,16 @@ const animText = new Typed('.animated-text', {
   loop: true
 });
 
+
+
+
+
+
+
+
+
+
+
 document.getElementById("github").href = "https://github.com/";
 document.getElementById("sherbet-live").href = "https://spectacular-sherbet-75f298.netlify.app/";
 document.getElementById("sherbet-server").href = "https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-Trishna-Nath";
@@ -79,3 +89,18 @@ document.getElementById("summer-live").href = "https://language-tutor.netlify.ap
 document.getElementById("summer-server").href = "https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-Trishna-Nath";
 document.getElementById("facebook").href = "https://www.facebook.com/trishna.nath.142";
 document.getElementById("linkedin").href = "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ftrishna-nath-0bb58b272%3Ftrk%3Dcontact-info%26fbclid%3DIwAR0aZYBCohN61pnmAp22vCa0XlehBj0s-fSpGS45u9bBn7V3_UOFC8wp2gk&h=AT1TrtlNJu0GYAyS07FgUILAlLoZNX_5w0VxVTtTjY3FduEjP0ai1WUJIOAncPrvbjX47hOZJ-Vhb_LRjScRdn5ZDX4dNQZfqSV4lcMZaZJj1EXv5re2xhwrx5-ZVD_SbHNnt0FIQsHn1lw";
+
+
+
+function toggleContent() {
+  var content = document.getElementById("content");
+  var btn = document.getElementById("toggleBtn");
+
+  if (content.style.display === "none") {
+    content.style.display = "block"; // Show the content
+    btn.textContent = "Read Less"; // Change the button text
+  } else {
+    content.style.display = "none"; // Hide the content
+    btn.textContent = "Read More"; // Change the button text
+  }
+}
